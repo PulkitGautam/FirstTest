@@ -1,0 +1,68 @@
+ul {
+	list-style: none;
+    margin: 15px;
+    padding: 0;
+    background-color: #ffbb8a;
+    overflow: hidden;
+    border: 5px solid gold;
+   }
+
+ul li {
+	display: inline;
+}
+
+ul li a {
+	width: 250px;
+	height: 80px;
+	text-decoration: none;
+	color: crimson;
+	font-weight: bold;
+	float: left;
+	text-align: center;
+	line-height: 80px;
+	display: block;
+}
+
+ul li a:hover {
+	font-size: 125%;
+	background-color: silver;
+	color: purple;
+}
+
+#top, #bottom, #left, #right {
+	background: #A5ebff;
+	position: fixed;
+}
+
+#left, #right {
+	top:0;
+	bottom: 0;
+	width: 15px;
+}
+
+#left {
+	left: 0;
+}
+
+#right {
+	right: 0;
+}
+
+#top, #bottom {
+	left: 0;
+	right: 0;
+	height: 15px;
+}
+
+#top {
+	top: 0;
+}
+
+#bottom {
+	bottom: 0;
+}
+
+
+
+
+
